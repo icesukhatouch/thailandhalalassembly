@@ -10,17 +10,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  head () {
-    return {
-      link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Prompt:500&display=swap' }
-      ]
-    }
-  }
-}
-</script>
 
 <style scope>
 .container {
@@ -59,16 +48,14 @@ img {
   height: auto;
 }
 #bgVdo {
-  z-index: 2000;
-  position: absolute;
-  height: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
 #logo {
   z-index: 2001;
 }
-/* #cover {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 1vh;
-  width: 1vh;
-} */
+
 </style>
