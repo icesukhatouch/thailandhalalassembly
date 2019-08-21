@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <video autoplay muted loop id="bgVdo">
-      <source src='https://player.vimeo.com/play/1444311090?s=354856987_1566314803_a9c11989f138ef7976b624c64c1793a9&loc=external&context=Vimeo%5CController%5CClipController.main&download=1' type="video/mp4">
+      <source src='~/assets/videos/THA2018_trim.mp4' type="video/mp4">
     </video>
     <div id="cover"></div>  
     <div id="logo">
