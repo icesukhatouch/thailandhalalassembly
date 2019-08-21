@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <video autoplay muted loop id="bgVdo">
+    <video playsinline autoplay muted loop id="bgVdo">
       <source src='~/assets/videos/THA2018_trim.mp4' type="video/mp4">
     </video>
     <div id="cover"></div>  
